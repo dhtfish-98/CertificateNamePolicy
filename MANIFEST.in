@@ -1,0 +1,6 @@
+include README.md ORIGIN.md DEFENSIVE_SCOPE.md VALIDATION.md SOURCE_AUDIT.json requirements-exact.txt
+recursive-include THIRD_PARTY_LICENSES *.txt
+recursive-include examples *.pem *.der
+recursive-include scripts *.py
+recursive-include tests *.py *.md py.typed
+recursive-include .github *.yml

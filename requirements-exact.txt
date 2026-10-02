@@ -1,0 +1,11 @@
+# Versions exercised on 2026-10-02; update deliberately and rerun validation.
+cryptography==47.0.0
+idna==3.20
+cffi==2.1.1
+pycparser==3.0
+pytest==9.1.1
+attrs==26.1.0
+setuptools==82.0.1
+wheel==0.48.0
+build==1.6.1
+ruff==0.16.10
