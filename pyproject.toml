@@ -4,13 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "certificate-name-policy"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bounded offline X.509 DNS/IP SAN name policy checks"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
 license-files = ["LICENSE", "THIRD_PARTY_LICENSES/service-identity-MIT.txt"]
-authors = [{name = "CertificateNamePolicy contributors"}]
+authors = [{name = "dhtfish98"}]
+maintainers = [{name = "dhtfish98"}]
 dependencies = ["cryptography==47.0.0", "idna==3.20"]
 classifiers = ["Programming Language :: Python :: 3", "Topic :: Security :: Cryptography"]
 

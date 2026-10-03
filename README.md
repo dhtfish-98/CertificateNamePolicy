@@ -1,5 +1,7 @@
 # CertificateNamePolicy
 
+New implementation author and maintainer: dhtfish98.
+
 Bounded, offline DNS/IP SAN name checks for **one local X.509 PEM or DER
 certificate**. This is a new implementation informed by service-identity and
 RFC 9525. It uses `cryptography` for X.509 decoding and the mature `idna` library
@@ -113,3 +115,11 @@ The project is a defensive CVP portfolio candidate. Source review and local
 tests do not establish the applicant's eligibility, organizational affiliation,
 actual model-policy obstacles, or approval. Those remain `OPEN`; no model-safety
 bypass or admission guarantee is claimed.
+
+Local file I/O requires the positive integer OS protection flags documented by
+the reader/writer. Missing, zero, None, Boolean or non-integer flags return a
+controlled OPEN/error before requested filesystem input/output instead of
+weakening the boundary. Native
+Windows file I/O is not verified; the current verification is macOS POSIX.
+
+Directory descriptor capability contract: `os.supports_dir_fd` must be a set or frozenset containing `os.open` before requested local file access. Missing, malformed or incomplete capability declarations return the existing controlled OPEN/error result. This finite POSIX contract is checked locally; native Windows file operations are not implemented or claimed.

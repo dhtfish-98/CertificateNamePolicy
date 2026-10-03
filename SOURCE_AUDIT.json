@@ -50,5 +50,11 @@
     "pyopenssl.py": "accepts existing connection and extracts peer certificate; connection API removed"
   },
   "runtime_reuse": "none; original frozen files retained solely as a differential test oracle",
-  "source_audit": "all five runtime source files read; upstream tests/docs/CI not represented as a full line-by-line upstream repository audit"
+  "source_audit": "all five runtime source files read; upstream tests/docs/CI not represented as a full line-by-line upstream repository audit",
+  "current_implementation": {
+    "version": "0.1.1",
+    "author": "dhtfish98",
+    "source_manifest": "SOURCE_MANIFEST.json",
+    "scope": "Selected finite implementation only; earlier source/code review measurements above describe their original snapshots."
+  }
 }

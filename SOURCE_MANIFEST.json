@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "project": "CertificateNamePolicy",
+  "version": "0.1.1",
+  "author": "dhtfish98",
+  "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "102c987043267d840046a39229cc2bae16ca6875293d70cb5b3b89f62897e89d",
+      "bytes": 1109
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "6594b87e761f7e7fd1e72a4c901862787f5655a3247be5734fce3ff3c815f2b5",
+      "bytes": 113
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "17682ad74739402c35cb6f85ebf90a60ab50f01c88bb78d70b70d012433826f5",
+      "bytes": 1784
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cbe5e7c7ba41de3b607288edfe5611d0369b3440e98aaa91682a277489880cbd",
+      "bytes": 1076
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "0fd43e4c49198874125f32746eae89692cbf5ff409dd25e0bc0860a96b4a7039",
+      "bytes": 322
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "e70cb44282fb58d08d1e231946ccc6ad1d9f7860d6e4c97f6b26bb4d757e0c93",
+      "bytes": 2351
+    },
+    {
+      "path": "README.md",
+      "sha256": "c3ff6a0dee95ee2cf898f50c98cc8ecf71108bf68869c6f1abba6f214eb0295c",
+      "bytes": 7237
+    },
+    {
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "11fcc30c35e5f9dad43ce0440d59a0009312fb39de1912ae62c1160be6b7c814",
+      "bytes": 3490
+    },
+    {
+      "path": "THIRD_PARTY_LICENSES/service-identity-MIT.txt",
+      "sha256": "24bd0a9ba7d0eae08a3a6e32a1b09f8e6871fa0325520a2fcb00e1539eaa602a",
+      "bytes": 1120
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "83e09d7ce94597ba30290b5049f777e84854987ea38ab5fc8cb8e6dcdbc161aa",
+      "bytes": 6644
+    },
+    {
+      "path": "examples/synthetic.der",
+      "sha256": "75c279b4748b5b6a1b1b77727e5703eefa4a9909d01579a8c09587bf248f55d4",
+      "bytes": 353
+    },
+    {
+      "path": "examples/synthetic.pem",
+      "sha256": "b4de423bcd9ebcef4505b5a013a6f15b887eee845bac8ca538254312a0103a64",
+      "bytes": 534
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "1da8eb3af8d77c239f66c16ff08ec333e1ba69705e98ad27ca7fb57af3a1e7c9",
+      "bytes": 1183
+    },
+    {
+      "path": "requirements-exact.txt",
+      "sha256": "11ad8c4a2f98a893e7d25de99068e79b0d3c48eb62b0dbf68c6b4720ffb03783",
+      "bytes": 225
+    },
+    {
+      "path": "scripts/generate_examples.py",
+      "sha256": "b642ee13309ba66fa6fea8aa2bfef105b22b8c04ebbe4228ca19cfe13b4c4543",
+      "bytes": 1687
+    },
+    {
+      "path": "scripts/offline_smoke.py",
+      "sha256": "c2821ba4c524b51690abbaf474c461b1df5c9c0f47c162dfc5abe7e184810203",
+      "bytes": 493
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "sha256": "75975ae1383c4aa5c0f1b682d5e1ec130d7bfd63c998bfbdbe9e04fe6371085d",
+      "bytes": 4267
+    },
+    {
+      "path": "src/certificate_name_policy/__init__.py",
+      "sha256": "078a95876fa824c88c1ed2d6e072d0777cf08b488396c178d9f20272eaf2fc3c",
+      "bytes": 239
+    },
+    {
+      "path": "src/certificate_name_policy/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    {
+      "path": "src/certificate_name_policy/cli.py",
+      "sha256": "8e467d1506aba389dddd68a0011cb5b02ed31709d292435542497e70949fee42",
+      "bytes": 1396
+    },
+    {
+      "path": "src/certificate_name_policy/policy.py",
+      "sha256": "84d2a9e5bd7e25ebf7d52257995724c9438ef478441cca9940b4188e93673e29",
+      "bytes": 14967
+    },
+    {
+      "path": "src/certificate_name_policy/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "fc242a6637fc2deb3064015b443f263fc6b4faa299b273a8b8d96d533b0c41cd",
+      "bytes": 1281
+    },
+    {
+      "path": "tests/oracle/README.md",
+      "sha256": "f40f129e1650910a1b37bdd4684a9ba02f98803d1f0012618e41051576a7cf67",
+      "bytes": 731
+    },
+    {
+      "path": "tests/oracle/service_identity/__init__.py",
+      "sha256": "d099089fba93b7e990d2d8a85c29057dc24b41a9e63c3206f76226b0d2007aee",
+      "bytes": 725
+    },
+    {
+      "path": "tests/oracle/service_identity/cryptography.py",
+      "sha256": "c3270fffa43d47d3be2730302d422f9c527fc8efca8ade7e33fffe29a5f5fce4",
+      "bytes": 5256
+    },
+    {
+      "path": "tests/oracle/service_identity/exceptions.py",
+      "sha256": "58c00641ac113eb01edf46852ddbe664e9186a6c920c61a963cf5ae43814f47a",
+      "bytes": 1542
+    },
+    {
+      "path": "tests/oracle/service_identity/hazmat.py",
+      "sha256": "c66f4f865394a9323ed2e6a1b020d48a442fa6bd1aaf06ee2a000283338854ce",
+      "bytes": 12814
+    },
+    {
+      "path": "tests/oracle/service_identity/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/oracle/service_identity/pyopenssl.py",
+      "sha256": "07d7c3699e1d21a2646ff54002803255625b1b7f6be362ddef5b5d11048ed46b",
+      "bytes": 3692
+    },
+    {
+      "path": "tests/test_capabilities.py",
+      "sha256": "ac13f99b3b4343a8c6ad965fe620735d55df6bad989de291cdc44873150033c4",
+      "bytes": 2508
+    },
+    {
+      "path": "tests/test_certificates.py",
+      "sha256": "14d8ebbc25bb7862042b5ec483252a38d54109608478153bca792ef9bda73d38",
+      "bytes": 7222
+    },
+    {
+      "path": "tests/test_differential.py",
+      "sha256": "486516234f1beda75b0d2f5f0a8e11d9cd6105f343128a66f2fe8a29dea74060",
+      "bytes": 4169
+    },
+    {
+      "path": "tests/test_dirfd_capabilities.py",
+      "sha256": "70474b42db3efa5c605511fbf2fe35eb319c39bcd25dcd7a64204ef462eaf65a",
+      "bytes": 5607
+    },
+    {
+      "path": "tests/test_files_cli.py",
+      "sha256": "bfc30e80422b14bcaf2080271cbfad378aeca8fd5f0661ff92a6fb9549fbae47",
+      "bytes": 5116
+    },
+    {
+      "path": "tests/test_names.py",
+      "sha256": "7a353e220bc487a2bdb891ecbdfa7940d6bc10e03a1b9340460b9c3e0b8ad765",
+      "bytes": 7046
+    }
+  ]
+}

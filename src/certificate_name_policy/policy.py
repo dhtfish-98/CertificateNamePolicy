@@ -301,7 +301,13 @@ def _read_regular_file(path: os.PathLike[str] | str, max_bytes: int) -> bytes:
     No O_CREAT, no output writes; O_NONBLOCK avoids blocking on FIFO/device input
     before fstat establishes that the opened descriptor is a regular file.
     """
-    if not all(hasattr(os, option) for option in ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK")):
+    if any(
+        type(getattr(os, option, None)) is not int or getattr(os, option, 0) <= 0
+        for option in ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK")
+    ):
+        raise _Rejected("safe_file_open_unsupported_platform")
+    if (type(getattr(os, "supports_dir_fd", None)) not in (set, frozenset)
+            or os.open not in os.supports_dir_fd):
         raise _Rejected("safe_file_open_unsupported_platform")
     raw_path = os.fspath(path)
     if not isinstance(raw_path, str) or not raw_path or len(raw_path) > 4096 or "\0" in raw_path:

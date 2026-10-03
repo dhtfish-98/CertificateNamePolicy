@@ -4,3 +4,5 @@ recursive-include examples *.pem *.der
 recursive-include scripts *.py
 recursive-include tests *.py *.md py.typed
 recursive-include .github *.yml
+
+include SOURCE_MANIFEST.json

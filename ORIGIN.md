@@ -33,3 +33,5 @@ dependencies exercised here; their own licenses remain with those separately
 installed third-party distributions. Exact validation versions are recorded in
 requirements-exact.txt. No dependency vulnerability or formal security audit is
 claimed.
+
+New implementation author and maintainer: dhtfish98. This attribution applies to the new implementation, without transferring ownership of the retained upstream source or notices.

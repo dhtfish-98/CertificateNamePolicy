@@ -35,7 +35,7 @@ def main():
         metadata_name = next(n for n in names if n.endswith(".dist-info/METADATA"))
         metadata = Parser().parsestr(wheel.read(metadata_name).decode())
         require(metadata["Name"] == "certificate-name-policy", "wrong name")
-        require(metadata["Version"] == "0.1.0", "wrong version")
+        require(metadata["Version"] == "0.1.1", "wrong version")
         require(metadata["Requires-Python"] == ">=3.11", "wrong Python range")
         require(metadata["License-Expression"] == "MIT", "missing license expression")
         requires = metadata.get_all("Requires-Dist")
