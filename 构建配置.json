@@ -1,0 +1,40 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "CertificateNamePolicy",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "38ffdb31e99bbd80acad081b41dd91a7b3b3b4e9",
+  "restored_inputs": [
+    {
+      "original": "DEFENSIVE_SCOPE.md",
+      "stored": "项目文档/DEFENSIVE_SCOPE.md",
+      "sha256": "17682ad74739402c35cb6f85ebf90a60ab50f01c88bb78d70b70d012433826f5"
+    },
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "cbe5e7c7ba41de3b607288edfe5611d0369b3440e98aaa91682a277489880cbd"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "e70cb44282fb58d08d1e231946ccc6ad1d9f7860d6e4c97f6b26bb4d757e0c93"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "052940fd59fdab1b2ddfbe488cf2a21b1ce92ef63a69bbcdae608a3c28b888b8"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "16e152b1187b3b37b9caf4c3c92e093b561cae944c5d096efac793a4e61da309"
+    },
+    {
+      "original": "tests/oracle/README.md",
+      "stored": "项目文档/tests/oracle/README.md",
+      "sha256": "f40f129e1650910a1b37bdd4684a9ba02f98803d1f0012618e41051576a7cf67"
+    }
+  ],
+  "platform_entries": []
+}

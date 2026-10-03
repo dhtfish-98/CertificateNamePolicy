@@ -1,3 +1,5 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # CertificateNamePolicy
 
 New implementation author and maintainer: dhtfish98.
@@ -105,8 +107,8 @@ Run `python -m pip install -r requirements-exact.txt`,
 `python -m pip install -e '.[test]' --no-build-isolation`, and
 `python -m pytest -q` for validation. The frozen
 oracle lives only under `tests/oracle` and is excluded from the runtime wheel.
-See [ORIGIN](ORIGIN.md), [DEFENSIVE_SCOPE](DEFENSIVE_SCOPE.md),
-[VALIDATION](VALIDATION.md), and [SOURCE_AUDIT](SOURCE_AUDIT.json) for evidence,
+See [ORIGIN](<ORIGIN.md>), [DEFENSIVE_SCOPE](<DEFENSIVE_SCOPE.md>),
+[VALIDATION](<VALIDATION.md>), and [SOURCE_AUDIT](<../SOURCE_AUDIT.json>) for evidence,
 scope, and open items. The examples are synthetic certificates for reserved
 `.test` names and documentation IP ranges; their temporary signing keys are
 never serialized. They are not trust anchors or deployment certificates.
