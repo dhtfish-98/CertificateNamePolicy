@@ -8,37 +8,37 @@
     {
       "path": "src/service_identity/__init__.py",
       "sha256": "d099089fba93b7e990d2d8a85c29057dc24b41a9e63c3206f76226b0d2007aee",
-      "role": "test-only frozen upstream oracle; excluded from distribution",
+      "role": "test-only frozen upstream oracle; excluded from wheel; included in sdist for differential tests",
       "url": "https://github.com/pyca/service-identity/blob/5d0a376d74042920edf3dd03942602b52cb100c8/src/service_identity/__init__.py"
     },
     {
       "path": "src/service_identity/cryptography.py",
       "sha256": "c3270fffa43d47d3be2730302d422f9c527fc8efca8ade7e33fffe29a5f5fce4",
-      "role": "test-only frozen upstream oracle; excluded from distribution",
+      "role": "test-only frozen upstream oracle; excluded from wheel; included in sdist for differential tests",
       "url": "https://github.com/pyca/service-identity/blob/5d0a376d74042920edf3dd03942602b52cb100c8/src/service_identity/cryptography.py"
     },
     {
       "path": "src/service_identity/exceptions.py",
       "sha256": "58c00641ac113eb01edf46852ddbe664e9186a6c920c61a963cf5ae43814f47a",
-      "role": "test-only frozen upstream oracle; excluded from distribution",
+      "role": "test-only frozen upstream oracle; excluded from wheel; included in sdist for differential tests",
       "url": "https://github.com/pyca/service-identity/blob/5d0a376d74042920edf3dd03942602b52cb100c8/src/service_identity/exceptions.py"
     },
     {
       "path": "src/service_identity/hazmat.py",
       "sha256": "c66f4f865394a9323ed2e6a1b020d48a442fa6bd1aaf06ee2a000283338854ce",
-      "role": "test-only frozen upstream oracle; excluded from distribution",
+      "role": "test-only frozen upstream oracle; excluded from wheel; included in sdist for differential tests",
       "url": "https://github.com/pyca/service-identity/blob/5d0a376d74042920edf3dd03942602b52cb100c8/src/service_identity/hazmat.py"
     },
     {
       "path": "src/service_identity/py.typed",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "role": "test-only frozen upstream oracle; excluded from distribution",
+      "role": "test-only frozen upstream oracle; excluded from wheel; included in sdist for differential tests",
       "url": "https://github.com/pyca/service-identity/blob/5d0a376d74042920edf3dd03942602b52cb100c8/src/service_identity/py.typed"
     },
     {
       "path": "src/service_identity/pyopenssl.py",
       "sha256": "07d7c3699e1d21a2646ff54002803255625b1b7f6be362ddef5b5d11048ed46b",
-      "role": "test-only frozen upstream oracle; excluded from distribution",
+      "role": "test-only frozen upstream oracle; excluded from wheel; included in sdist for differential tests",
       "url": "https://github.com/pyca/service-identity/blob/5d0a376d74042920edf3dd03942602b52cb100c8/src/service_identity/pyopenssl.py"
     }
   ],
@@ -52,9 +52,14 @@
   "runtime_reuse": "none; original frozen files retained solely as a differential test oracle",
   "source_audit": "all five runtime source files read; upstream tests/docs/CI not represented as a full line-by-line upstream repository audit",
   "current_implementation": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "dhtfish98",
     "source_manifest": "SOURCE_MANIFEST.json",
     "scope": "Selected finite implementation only; earlier source/code review measurements above describe their original snapshots."
+  },
+  "license_cleanup_20261003": {
+    "version": "0.1.2",
+    "removed_reference_notice_copies": [],
+    "scope": "Material-only notice cleanup. Earlier source-review hashes describe historical snapshots; current files are bound by SOURCE_MANIFEST.json. Actually distributed third-party source/data and their notices remain unchanged."
   }
 }

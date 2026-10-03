@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "CertificateNamePolicy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -42,8 +42,8 @@
     },
     {
       "path": "SOURCE_AUDIT.json",
-      "sha256": "11fcc30c35e5f9dad43ce0440d59a0009312fb39de1912ae62c1160be6b7c814",
-      "bytes": 3490
+      "sha256": "fe43ef5b385ad6cb4c7accfca8069759d416f5a8a33576ccb926344342eb11c1",
+      "bytes": 4039
     },
     {
       "path": "THIRD_PARTY_LICENSES/service-identity-MIT.txt",
@@ -52,8 +52,8 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "83e09d7ce94597ba30290b5049f777e84854987ea38ab5fc8cb8e6dcdbc161aa",
-      "bytes": 6644
+      "sha256": "16e152b1187b3b37b9caf4c3c92e093b561cae944c5d096efac793a4e61da309",
+      "bytes": 7984
     },
     {
       "path": "examples/synthetic.der",
@@ -67,7 +67,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "1da8eb3af8d77c239f66c16ff08ec333e1ba69705e98ad27ca7fb57af3a1e7c9",
+      "sha256": "df6fe1237778d87e8228f178f3641fd6b04553a430e31d4aa15ca8530dba544d",
       "bytes": 1183
     },
     {
@@ -87,12 +87,12 @@
     },
     {
       "path": "scripts/verify_package.py",
-      "sha256": "75975ae1383c4aa5c0f1b682d5e1ec130d7bfd63c998bfbdbe9e04fe6371085d",
-      "bytes": 4267
+      "sha256": "d043988c27825c82c9c0ab838d3e05a57f51dc39eb554d7138366d12a73f9c21",
+      "bytes": 4371
     },
     {
       "path": "src/certificate_name_policy/__init__.py",
-      "sha256": "078a95876fa824c88c1ed2d6e072d0777cf08b488396c178d9f20272eaf2fc3c",
+      "sha256": "dac93dfebddfcaac4280df70aee6f8b384148ae13585b158161d72dbda0cd2f0",
       "bytes": 239
     },
     {
@@ -185,5 +185,6 @@
       "sha256": "7a353e220bc487a2bdb891ecbdfa7940d6bc10e03a1b9340460b9c3e0b8ad765",
       "bytes": 7046
     }
-  ]
+  ],
+  "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved."
 }
