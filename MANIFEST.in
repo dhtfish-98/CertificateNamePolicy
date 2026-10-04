@@ -1,5 +1,5 @@
-include 项目文档/README.md 项目文档/ORIGIN.md 项目文档/DEFENSIVE_SCOPE.md 项目文档/VALIDATION.md SOURCE_AUDIT.json requirements-exact.txt
-recursive-include THIRD_PARTY_LICENSES *.txt
+include 项目文档/README.md 项目文档/ORIGIN.md 项目文档/DEFENSIVE_SCOPE.md 项目文档/VALIDATION.md 项目文档/SOURCE_AUDIT.json requirements-exact.txt
+recursive-include 项目文档/THIRD_PARTY_LICENSES *.txt
 recursive-include examples *.pem *.der
 recursive-include scripts *.py
 recursive-include tests *.py *.md py.typed

@@ -108,7 +108,7 @@ Run `python -m pip install -r requirements-exact.txt`,
 `python -m pytest -q` for validation. The frozen
 oracle lives only under `tests/oracle` and is excluded from the runtime wheel.
 See [ORIGIN](<ORIGIN.md>), [DEFENSIVE_SCOPE](<DEFENSIVE_SCOPE.md>),
-[VALIDATION](<VALIDATION.md>), and [SOURCE_AUDIT](<../SOURCE_AUDIT.json>) for evidence,
+[VALIDATION](<VALIDATION.md>), and [SOURCE_AUDIT](<SOURCE_AUDIT.json>) for evidence,
 scope, and open items. The examples are synthetic certificates for reserved
 `.test` names and documentation IP ranges; their temporary signing keys are
 never serialized. They are not trust anchors or deployment certificates.

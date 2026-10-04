@@ -9,7 +9,7 @@ description = "Bounded offline X.509 DNS/IP SAN name policy checks"
 readme = "项目文档/README.md"
 requires-python = ">=3.11"
 license = "MIT"
-license-files = ["项目文档/LICENSE", "THIRD_PARTY_LICENSES/service-identity-MIT.txt"]
+license-files = ["项目文档/LICENSE", "项目文档/THIRD_PARTY_LICENSES/service-identity-MIT.txt"]
 authors = [{name = "dhtfish98"}]
 maintainers = [{name = "dhtfish98"}]
 dependencies = ["cryptography==47.0.0", "idna==3.20"]

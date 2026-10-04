@@ -17,16 +17,16 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "8d15b24ce2bc270b91bc8425a8843b3a0fa998fc6716670a0647a7a30ed7e9ae",
-      "bytes": 873
+      "sha256": "a42b4b7334098b951955a47a54e1f3c902badcffd068800b5805119d449d4053",
+      "bytes": 899
     },
     {
-      "path": "SOURCE_AUDIT.json",
+      "path": "项目文档/SOURCE_AUDIT.json",
       "sha256": "fe43ef5b385ad6cb4c7accfca8069759d416f5a8a33576ccb926344342eb11c1",
       "bytes": 4039
     },
     {
-      "path": "THIRD_PARTY_LICENSES/service-identity-MIT.txt",
+      "path": "项目文档/THIRD_PARTY_LICENSES/service-identity-MIT.txt",
       "sha256": "24bd0a9ba7d0eae08a3a6e32a1b09f8e6871fa0325520a2fcb00e1539eaa602a",
       "bytes": 1120
     },
@@ -42,8 +42,8 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "95714b93e5277fce46fb6507f9b389baf7f16f31963b23d8ee285cf693543b6e",
-      "bytes": 1209
+      "sha256": "6e9f3bea43bd41811d503e7ea6add88923c75643a0f4d69e95949e70f6d7df2a",
+      "bytes": 1222
     },
     {
       "path": "requirements-exact.txt",
@@ -62,8 +62,8 @@
     },
     {
       "path": "scripts/verify_package.py",
-      "sha256": "bbf11793c5fe714f3b395ecc6b816e4db1dce5cd585f8ebf46a4da788196558a",
-      "bytes": 4397
+      "sha256": "d1febe4f0e3112c1429c9f1df4e2e03dd81120875ba9616538cc69aa5f6057ad",
+      "bytes": 4436
     },
     {
       "path": "src/certificate_name_policy/__init__.py",
@@ -137,8 +137,8 @@
     },
     {
       "path": "tests/test_differential.py",
-      "sha256": "486516234f1beda75b0d2f5f0a8e11d9cd6105f343128a66f2fe8a29dea74060",
-      "bytes": 4169
+      "sha256": "d0291eb3c38b2c1e213cc79c512ae39d936e4aaaf56ce2980cd2d764dc85c3ae",
+      "bytes": 4195
     },
     {
       "path": "tests/test_dirfd_capabilities.py",
@@ -161,7 +161,7 @@
       "path": "构建.py"
     },
     {
-      "sha256": "bf2a0cf75ebf2dfd8eb4a4325af7b6d1d3181ceebb6cd44843e322317df8daf0",
+      "sha256": "4713aa1de0caa6455fcee6cc9e9a1d96516fb7391d4059b9f02c5bf9328ac1cd",
       "bytes": 1308,
       "path": "构建配置.json"
     },
@@ -182,8 +182,8 @@
     },
     {
       "path": "项目文档/README.md",
-      "sha256": "052940fd59fdab1b2ddfbe488cf2a21b1ce92ef63a69bbcdae608a3c28b888b8",
-      "bytes": 7603
+      "sha256": "14088671cad7c2bfafee89757a8b99d21e13cdc92361ba7d4d52841fd05d0eaa",
+      "bytes": 7600
     },
     {
       "path": "项目文档/VALIDATION.md",
