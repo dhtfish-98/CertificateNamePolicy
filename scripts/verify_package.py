@@ -44,7 +44,10 @@ def main():
         require(
             "cryptography==47.0.0" in requires and "idna==3.20" in requires, "unfixed dependencies"
         )
-        for filename in ("项目文档/LICENSE", "项目文档/THIRD_PARTY_LICENSES/service-identity-MIT.txt"):
+        for filename in (
+            "项目文档/LICENSE",
+            "项目文档/THIRD_PARTY_LICENSES/service-identity-MIT.txt",
+        ):
             packaged = next(n for n in names if n.endswith("/licenses/" + filename))
             require(
                 wheel.read(packaged) == (root / filename).read_bytes(), "license content changed"
@@ -74,13 +77,21 @@ def main():
             not any(m.name.startswith("/") or ".." in m.name.split("/") for m in members),
             "unsafe sdist path",
         )
-        for filename in ("项目文档/LICENSE", "项目文档/THIRD_PARTY_LICENSES/service-identity-MIT.txt"):
+        for filename in (
+            "项目文档/LICENSE",
+            "项目文档/THIRD_PARTY_LICENSES/service-identity-MIT.txt",
+        ):
             member = next(m for m in members if m.name.endswith("/" + filename))
             require(
                 archive.extractfile(member).read() == (root / filename).read_bytes(),
                 "sdist license mismatch",
             )
-        required = ("ORIGIN.md", "DEFENSIVE_SCOPE.md", "项目文档/SOURCE_AUDIT.json", "VALIDATION.md")
+        required = (
+            "ORIGIN.md",
+            "DEFENSIVE_SCOPE.md",
+            "项目文档/SOURCE_AUDIT.json",
+            "VALIDATION.md",
+        )
         require(
             all(any(m.name.endswith("/" + filename) for m in members) for filename in required),
             "source documentation missing",

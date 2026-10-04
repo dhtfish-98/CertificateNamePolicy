@@ -105,5 +105,7 @@ def test_oracle_frozen_file_and_license_hashes():
     for source in manifest["files"]:
         file = ORACLE / Path(source["path"]).name
         assert hashlib.sha256(file.read_bytes()).hexdigest() == source["sha256"]
-    license_bytes = (ROOT / "项目文档/THIRD_PARTY_LICENSES" / "service-identity-MIT.txt").read_bytes()
+    license_bytes = (
+        ROOT / "项目文档/THIRD_PARTY_LICENSES" / "service-identity-MIT.txt"
+    ).read_bytes()
     assert hashlib.sha256(license_bytes).hexdigest() == manifest["license_sha256"]

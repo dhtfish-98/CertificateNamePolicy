@@ -62,8 +62,8 @@
     },
     {
       "path": "scripts/verify_package.py",
-      "sha256": "d1febe4f0e3112c1429c9f1df4e2e03dd81120875ba9616538cc69aa5f6057ad",
-      "bytes": 4436
+      "sha256": "b3bdbcb5dcaff779387543ff9e362c908388b45d5580a5974c798f14b6079f39",
+      "bytes": 4565
     },
     {
       "path": "src/certificate_name_policy/__init__.py",
@@ -137,8 +137,8 @@
     },
     {
       "path": "tests/test_differential.py",
-      "sha256": "d0291eb3c38b2c1e213cc79c512ae39d936e4aaaf56ce2980cd2d764dc85c3ae",
-      "bytes": 4195
+      "sha256": "9405a4c5bb4efcbb8971a4d09601dec25eb2f45b33b40c6dc6aade6229e76387",
+      "bytes": 4209
     },
     {
       "path": "tests/test_dirfd_capabilities.py",
