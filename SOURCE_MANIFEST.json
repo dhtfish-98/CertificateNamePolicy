@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "CertificateNamePolicy",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -42,7 +42,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "6e9f3bea43bd41811d503e7ea6add88923c75643a0f4d69e95949e70f6d7df2a",
+      "sha256": "e5c571e8a1d5ae567e8b1493a391da34b14e46f5ad8e8bb6a76957c19fc383b0",
       "bytes": 1222
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "path": "src/certificate_name_policy/__init__.py",
-      "sha256": "dac93dfebddfcaac4280df70aee6f8b384148ae13585b158161d72dbda0cd2f0",
+      "sha256": "ba34dd64c2f3bf0eb73ab7975c97f2a4ca278ca289e4526d22dbeaab8904cfd6",
       "bytes": 239
     },
     {
@@ -161,7 +161,7 @@
       "path": "构建.py"
     },
     {
-      "sha256": "4713aa1de0caa6455fcee6cc9e9a1d96516fb7391d4059b9f02c5bf9328ac1cd",
+      "sha256": "fc949b10811275c2f1a87565a1746748cc66c45e1211623ef538d51566954e46",
       "bytes": 1308,
       "path": "构建配置.json"
     },
@@ -187,8 +187,8 @@
     },
     {
       "path": "项目文档/VALIDATION.md",
-      "sha256": "16e152b1187b3b37b9caf4c3c92e093b561cae944c5d096efac793a4e61da309",
-      "bytes": 7984
+      "sha256": "4e06f855be590390e778a7674891b226fecd3b61cb6d54312aa6566014cc0240",
+      "bytes": 8567
     },
     {
       "path": "项目文档/tests/oracle/README.md",
